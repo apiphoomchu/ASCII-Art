@@ -13,4 +13,4 @@
  - Important:
     To run a program, make sure to toggle off **Results** & **Show Console** in the **Performance Panel** ⏱ located at the bottom of the screen, to the left of the Swift Playground Run/Stop Button.
 
-//This playground was inspired by an article about ASCII Art written by Josh Smith in 2015.
+This playground was inspired by an article about ASCII Art written by Josh Smith in 2015.
