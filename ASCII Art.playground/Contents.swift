@@ -7,7 +7,7 @@
 # How to run this ASCII Art Playground?
  * 1). Pick your image 🌁
  * 2). toggle off **Results** & **Show Console** in the **Performance Panel** ⏱ located at the bottom of the screen, to the left of the Swift Playground Run/Stop Button.
- * 3). That it!  😙
+ * 3). That's it!  😙
 
  - - -
  */
