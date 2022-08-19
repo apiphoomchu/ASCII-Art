@@ -49,6 +49,7 @@ func displayAsciiArt(_ asciiArt: String)
         label.lineBreakMode = NSLineBreakMode.byClipping
         label.numberOfLines = 0
         label.text = asciiArt
+        label.setLineSpacing(lineHeightMultiple: 0.608)
         label.sizeToFit()
         
         currentLabel?.removeFromSuperview()
