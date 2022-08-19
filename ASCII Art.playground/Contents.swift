@@ -11,7 +11,7 @@
 
  - - -
  */
-let image = #imageLiteral(resourceName: "GM.jpg") //👈 Pick your image here!
+let image = #imageLiteral(resourceName: "") //👈 Pick your image here!
 /*:
  - Important:
     To run a program, make sure to toggle off **Results** & **Show Console** in the **Performance Panel** ⏱ located at the bottom of the screen, to the left of the Swift Playground Run/Stop Button.
