@@ -11,7 +11,9 @@
 
  - - -
  */
-let image = #imageLiteral(resourceName: "GM.jpg") //👈 Pick your image here!
+let image = #imageLiteral(resourceName: "") //👈 Pick your image here!
+var width = 150 //👈 Adjust the Image width
+var height = 150 //👈 Adjust the Image height
 /*:
  - Important:
     To run a program, make sure to toggle off **Results** & **Show Console** in the **Performance Panel** ⏱ located at the bottom of the screen, to the left of the Swift Playground Run/Stop Button.
@@ -24,7 +26,7 @@ import PlaygroundSupport
 
 var currentLabel: UILabel?
 let labelFont = UIFont(name: "Menlo", size: 7)!
-let maxImageSize = CGSize(width: 310, height: 310)
+let maxImageSize = CGSize(width: width, height: height)
 var palette: AsciiPalette = AsciiPalette(font: labelFont)
 var scrollView = UIScrollView()
 
@@ -49,6 +51,7 @@ func displayAsciiArt(_ asciiArt: String)
         label.lineBreakMode = NSLineBreakMode.byClipping
         label.numberOfLines = 0
         label.text = asciiArt
+        label.setLineSpacing(lineHeightMultiple: 0.608)
         label.sizeToFit()
         
         currentLabel?.removeFromSuperview()
